@@ -1,3 +1,13 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../../'))
+# En la sección de extensions:
+extensions = [
+ 'sphinx.ext.autodoc',
+ 'sphinx.ext.napoleon',
+ 'sphinx_markdown_builder'
+]
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
